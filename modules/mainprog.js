@@ -67,4 +67,6 @@ export default class Library {
   }
 }
 
-export { bklist, bkAuthor, bkTitle, addBtn, time };
+export {
+  bklist, bkAuthor, bkTitle, addBtn, time,
+};

@@ -33,4 +33,6 @@ contactBtn.addEventListener('click', contactShow);
 listBtn.addEventListener('click', listShow);
 addNewBtn.addEventListener('click', addNewShow);
 
-export { section1, section2, section3, listBtn, addNewBtn, contactBtn };
+export {
+  section1, section2, section3, listBtn, addNewBtn, contactBtn,
+};
