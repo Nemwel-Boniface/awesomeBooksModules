@@ -20,8 +20,7 @@ spa.contactShow();
 spa.listShow();
 spa.addNewShow();
 
-import { DateTime } from './node_modules/luxon/src/luxon.js';
-
+// import { DateTime } from './node_modules/luxon/src/luxon.js';
 import * as yourcurrentTime from './modules/datetime.js';
 main.time.textContent = '';
 setInterval(() => { main.time.textContent = `${yourcurrentTime.currentTime}`; }, 1000);
