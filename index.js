@@ -18,3 +18,10 @@ spa.addNewBtn;
 spa.contactShow();
 spa.listShow();
 spa.addNewShow();
+
+import { DateTime } from './node_modules/luxon/src/luxon.js';
+
+import * as yourcurrentTime from './modules/datetime.js';
+main.time.textContent = '';
+main.time.textContent = `${yourcurrentTime.currentTime}`;
+

@@ -68,4 +68,3 @@ export default class Library {
 }
 
 export { bklist, bkAuthor, bkTitle, addBtn, time };
-// import { myLib } from './newInstance.js';
