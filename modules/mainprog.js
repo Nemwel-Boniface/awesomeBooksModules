@@ -4,7 +4,7 @@ const bkAuthor = document.getElementById('author');
 const addBtn = document.querySelector('.add-btn');
 const time = document.querySelector('.time');
 
-export default class Library {
+export class Library {
   constructor() {
     this.books = [
       {
