@@ -1,6 +1,6 @@
 import { time } from "./mainprog.js";
 
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
 
 const now = DateTime.now();
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
