@@ -6,3 +6,4 @@ main.bklist;
 main.time;
 import { default as Library } from './modules/mainprog.js';
 
+import { myLib } from './modules/newInstance.js';
