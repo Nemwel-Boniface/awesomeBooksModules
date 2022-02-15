@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  border-top: 1.6px solid black;
+  padding-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #000;
+  align-items: center;
+  padding: 12px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.nav h2 {
+  border: none;
+  font-size: 28px;
+  padding: 1%;
+}
+
+.nav ul {
+  display: flex;
+  width: 40%;
+}
+
+.nav ul li {
+  list-style-type: none;
+  border-right: 3px solid #000;
+  width: 30%;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.nav ul .nobd {
+  border-right: none;
+}
+
+.section1,
+.section2,
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section1 {
+  margin-top: 10vh;
+  height: auto;
+}
+
+.section2 {
+  margin-top: 10%;
+  max-width: 300px;
+  height: 200px;
+}
+
+.section3 p {
+  margin: 20px 0;
+}
+
+.section3 ul {
+  display: flex;
+}
+
+.section3 ul li {
+  margin: auto 0;
+}
+
+.section3 ul li ul {
+  display: block;
+  list-style-type: circle;
+}
+
+form {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+input {
+  height: 40%;
+  padding-inline-start: 10px;
+}
+
+.add-btn {
+  width: 30%;
+  margin-left: 177px;
+  cursor: pointer;
+}
+
+.remove {
+  width: 18%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.books-wrapper {
+  width: 100%;
+  height: 43vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  overflow-y: scroll;
+}
+
+.books-wrapper,
+.add-btn,
+input,
+.remove {
+  border: 3px solid black;
+  text-transform: capitalize;
+}
+
+.books-wrapper li:nth-child(odd) {
+  background-color: rgb(223, 219, 219);
+  color: #000;
+}
+
+.footer {
+  border: 3px solid #000;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  width: 90%;
+}
+
+.dis-none {
+  display: none;
+}
+
+.active-btn {
+  background-color: black;
+  color: white;
+  border: 0.7px solid white;
+  border-radius: 7%;
+  padding: 4px;
+}
+
+/* time container */
+
+.time-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 5% 0 0;
+}
