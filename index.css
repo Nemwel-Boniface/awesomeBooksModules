@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
 }
 
 h2 {
@@ -109,6 +110,8 @@ input {
   width: 30%;
   margin-left: 177px;
   cursor: pointer;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .remove {
@@ -138,6 +141,11 @@ input,
 .books-wrapper li:nth-child(odd) {
   background-color: rgb(223, 219, 219);
   color: #000;
+}
+
+.books-wrapper li button {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .footer {
