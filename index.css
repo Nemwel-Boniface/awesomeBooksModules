@@ -177,3 +177,10 @@ input,
   justify-content: flex-end;
   margin: 30px 5% 0 0;
 }
+
+/* Empty paragraph styling */
+.empty {
+  margin: auto auto;
+  font-size: 19px;
+  font-style: italic;
+}
