@@ -68,7 +68,7 @@ export class Library {
     } else {
       const empty = document.createElement('p');
       empty.classList.add('empty');
-      empty.innerHTML = 'There are no books in the store';
+      empty.innerHTML = 'There are no books in the store..';
       bklist.appendChild(empty);
     }
   }
