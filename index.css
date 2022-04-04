@@ -76,6 +76,10 @@ li {
   height: 200px;
 }
 
+.section2 h2{
+  margin-bottom: 20px;
+}
+
 .section3 p {
   margin: 20px 0;
 }
@@ -104,6 +108,7 @@ form {
 input {
   height: 40%;
   padding-inline-start: 10px;
+  padding: 10px;
 }
 
 .add-btn {
@@ -183,4 +188,8 @@ input,
   margin: auto auto;
   font-size: 19px;
   font-style: italic;
+}
+
+.header-top h1{
+  margin-bottom: 20px;
 }
