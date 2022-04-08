@@ -49,7 +49,7 @@ export class Library {
 
   displayBooks() {
     bklist.innerHTML = '';
-    if(this.books.length !== 0) {
+    if (this.books.length !== 0) {
       this.books.forEach((book, index) => {
         const li = document.createElement('li');
         const description = document.createElement('p');
