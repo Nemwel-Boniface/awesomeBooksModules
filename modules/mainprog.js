@@ -49,21 +49,28 @@ export class Library {
 
   displayBooks() {
     bklist.innerHTML = '';
-    this.books.forEach((book, index) => {
-      const li = document.createElement('li');
-      const description = document.createElement('p');
+    if (this.books.length !== 0) {
+      this.books.forEach((book, index) => {
+        const li = document.createElement('li');
+        const description = document.createElement('p');
 
-      const btnRemove = document.createElement('button');
-      description.textContent = `"${book.title}" by ${book.author}`;
-      btnRemove.textContent = 'remove';
-      btnRemove.classList.add('remove');
+        const btnRemove = document.createElement('button');
+        description.textContent = `"${book.title}" by ${book.author}`;
+        btnRemove.textContent = 'remove';
+        btnRemove.classList.add('remove');
 
-      li.append(description, btnRemove);
-      btnRemove.addEventListener('click', () => {
-        this.removeBook(index);
+        li.append(description, btnRemove);
+        btnRemove.addEventListener('click', () => {
+          this.removeBook(index);
+        });
+        bklist.appendChild(li);
       });
-      bklist.appendChild(li);
-    });
+    } else {
+      const empty = document.createElement('p');
+      empty.classList.add('empty');
+      empty.innerHTML = 'There are no books in the store..';
+      bklist.appendChild(empty);
+    }
   }
 }
 

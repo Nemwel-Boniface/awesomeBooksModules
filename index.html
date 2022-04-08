@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome books Modules</title>
   <link rel="stylesheet" href="index.css">
+
+  <!--Google fonts poppins -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <nav class="nav">
@@ -17,7 +22,7 @@
     </ul>
   </nav>
   <div class="time-div">
-    <p class="time"></p>
+
     </div>
   <section class="dis-none section1">
   <header>
@@ -30,8 +35,8 @@
   <section class="section2">
     <h2>Add a new book</h2>
     <form class="input-wrapper" id="formContainer">
-      <input type="text" placeholder="Title" id="title" name="title" />
-      <input type="text" placeholder="Author" id="author" name="author" />
+      <input type="text" minlength="1" maxlength="12" placeholder="Title" id="title" name="title" required />
+      <input type="text" minlength="1" maxlength="12" placeholder="Author" id="author" name="author" required />
       <button type="submit" class="add-btn">Add</button>
     </form>
   </section>
@@ -52,7 +57,7 @@
   </section>
 
   <footer class="footer">
-    <p>&copy;Nemwel 2022 all right Reeserved.</p>
+    <p>&copy; <a href="https://www.linkedin.com/in/nemwel-nyandoro?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlXzELG8WQhiVspkzNXS4KQ%3D%3D">Nemwel</a> 2022 all right Reeserved.</p>
   </footer>
 
   <script src="index.js" type="module"></script>
